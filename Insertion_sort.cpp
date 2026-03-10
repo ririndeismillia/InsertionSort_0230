@@ -27,7 +27,8 @@ void input (){
     }
 }
 
-void insertionsort(){
+void insertionsort()
+{
     int temp;
     int j;
 
@@ -49,3 +50,12 @@ void insertionsort(){
 
     }
 }
+
+void display(){
+    cout << endl;
+    cout << "\n=============";
+    cout << "\nElement Array" << endl;
+    cout << "n==============";
+}
+
+
